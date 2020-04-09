@@ -115,7 +115,7 @@
 		</div>
 
 		<div class="row">
-			<?php require 'page_sections/consignes.php'; ?>
+			<?php require 'consignes.php'; ?>
 
 			<div class="col-6 pl-5">
 				<p class="h3 d-flex justify-content-center text-danger my-3">ICI LE DEROULEMENT DU JEU</p>
@@ -160,7 +160,7 @@
 							</p>
 						<?php endif ; ?>
 						
-						<?php require 'page_sections/form.php'; ?>
+						<?php require 'form.php'; ?>
 
 						<?php if(isset($afficher_tentative_echoue)) : ?>
 							<p class="alert alert-danger"><?= $afficher_tentative_echoue ?></p>
